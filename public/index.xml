@@ -6,10 +6,20 @@
     <description>Recent content on Go Weekly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Jul 2018 20:12:03 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 20:59:03 +0800</lastBuildDate>
     
 	<atom:link href="https://www.upgradecoder.com/goweekly/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第四周</title>
+      <link>https://www.upgradecoder.com/goweekly/post/4/</link>
+      <pubDate>Tue, 10 Jul 2018 20:59:03 +0800</pubDate>
+      
+      <guid>https://www.upgradecoder.com/goweekly/post/4/</guid>
+      <description>&lt;p&gt;Microservices, TDD
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>第三周</title>

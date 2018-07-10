@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>第一周 - Go Weekly</title>
+  <title>第四周 - Go Weekly</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="goweekly" />
-  <meta name="description" content="Go 1.11 的规划，好玩的库，两本神书。 " />
+  <meta name="description" content="Microservices, TDD " />
 
   <meta name="keywords" content="Go, Go语言, 开发, Web开发" />
 
@@ -29,7 +29,7 @@
 <meta name="generator" content="Hugo 0.42.2" />
 
 
-<link rel="canonical" href="https://www.upgradecoder.com/goweekly/post/1/" />
+<link rel="canonical" href="https://www.upgradecoder.com/goweekly/post/4/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/goweekly/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/goweekly/favicon-32x32.png">
@@ -49,21 +49,17 @@
 
 
 
-<meta property="og:title" content="第一周" />
-<meta property="og:description" content="Go 1.11 的规划，好玩的库，两本神书。
+<meta property="og:title" content="第四周" />
+<meta property="og:description" content="Microservices, TDD
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.upgradecoder.com/goweekly/post/1/" />
+<meta property="og:url" content="https://www.upgradecoder.com/goweekly/post/4/" />
 
 
 
-<meta property="article:published_time" content="2018-07-07T21:04:01&#43;08:00"/>
+<meta property="article:published_time" content="2018-07-10T20:59:03&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-07-07T21:04:01&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-07-10T20:59:03&#43;08:00"/>
 
 
 
@@ -71,21 +67,25 @@
 
 
 
-<meta itemprop="name" content="第一周">
-<meta itemprop="description" content="Go 1.11 的规划，好玩的库，两本神书。
+
+
+
+
+<meta itemprop="name" content="第四周">
+<meta itemprop="description" content="Microservices, TDD
 ">
 
 
-<meta itemprop="datePublished" content="2018-07-07T21:04:01&#43;08:00" />
-<meta itemprop="dateModified" content="2018-07-07T21:04:01&#43;08:00" />
-<meta itemprop="wordCount" content="167">
+<meta itemprop="datePublished" content="2018-07-10T20:59:03&#43;08:00" />
+<meta itemprop="dateModified" content="2018-07-10T20:59:03&#43;08:00" />
+<meta itemprop="wordCount" content="227">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="第一周"/>
-<meta name="twitter:description" content="Go 1.11 的规划，好玩的库，两本神书。
+<meta name="twitter:title" content="第四周"/>
+<meta name="twitter:description" content="Microservices, TDD
 "/>
 
 <!--[if lte IE 9]>
@@ -133,12 +133,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">第一周</h1>
+      <h1 class="post-title">第四周</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-07-07 </span>
+        <span class="post-time"> 2018-07-10 </span>
         
-        <span class="more-meta"> 约 167 字 </span>
+        <span class="more-meta"> 约 227 字 </span>
         <span class="more-meta"> 预计阅读 1 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/goweekly/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -155,7 +155,7 @@
 <li>
 <ul>
 <li><a href="#go头条">Go头条</a></li>
-<li><a href="#库-项目">库&amp;项目</a></li>
+<li><a href="#库-项">库&amp;项</a></li>
 <li><a href="#教程-文档">教程&amp;文档</a></li>
 <li><a href="#图书推荐">图书推荐</a></li>
 </ul></li>
@@ -169,49 +169,52 @@
 
     
     <div class="post-content">
-      <p>Go 1.11 的规划，好玩的库，两本神书。
+      <p>Microservices, TDD
 </p>
 
 <h2 id="go头条">Go头条</h2>
 
 <ol>
-<li><a href="https://tip.golang.org/doc/go1.11">Go 1.11 Release Notes</a></li>
-<li><a href="https://blog.golang.org/go-brand">Go&rsquo;s New Brand</a></li>
-<li><a href="https://www.processon.com/view/link/5a9ba4c8e4b0a9d22eb3bdf0">Go知识图谱</a></li>
-<li><a href="https://go-zh.org/">Go中文</a></li>
-<li><a href="https://golangweekly.com/">Golang Weekly</a></li>
-<li><a href="https://groups.google.com/forum/#!forum/golang-nuts">golang-nuts</a></li>
-<li><a href="https://www.reddit.com/r/golang/">reddit.com/r/golang/</a></li>
-<li><a href="https://studygolang.com/">Go语言中文网</a></li>
-<li><a href="https://segmentfault.com/t/golang">segmentfault/golang</a></li>
-<li><a href="http://zonov.me/golang-for-rubyists-part-7-ruby-and-golang-methods-comparison/">Golang for Rubyists.</a></li>
-<li><a href="https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9">Modern Backend Developer in 2018</a></li>
-<li><a href="https://www.jianshu.com/p/ea9ab1b67dce">今日头条Go建千亿级微服务的实践</a></li>
+<li><a href="https://nordicapis.com/writing-microservices-in-go">Writing Microservices in Go</a></li>
+<li><a href="http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang">Handling 1 Million Requests per Minute with Go</a></li>
+<li><a href="http://blog.paracode.com/2015/08/28/ruby-and-go-sitting-in-a-tree">Ruby and Go Sitting in a Tree</a></li>
+<li><a href="https://www.reddit.com/r/golang/comments/8xoc7o/is_go_more_like_java_or_more_like_ansi_c/">Is Go more like Java or more like ANSI C?</a></li>
+<li><a href="https://www.reddit.com/r/golang/comments/8xao9t/hugo_043_adds_a_powerful_assets_pipeline_with/">Hugo 0.43 adds a powerful assets pipeline with SASS/SCSS support and more</a></li>
+<li><a href="https://medium.com/@pierreprinetti/test-driven-development-in-go-baeab5adb468">Test-Driven Development in Go</a></li>
+<li><a href="https://www.reddit.com/r/golang/comments/8x5lih/function_that_takes_any_slice_as_parameter/">Function that takes any Slice as parameter</a></li>
 </ol>
 
-<h2 id="库-项目">库&amp;项目</h2>
+<h2 id="库-项">库&amp;项</h2>
 
-<ol>
-<li>a painless self-hosted Git service  <a href="https://github.com/gogs/gogs">https://github.com/gogs/gogs</a></li>
-<li>Go Web Programming code repository <a href="https://github.com/sausheong/gwp">https://github.com/sausheong/gwp</a></li>
-<li>开源文库系统 <a href="https://github.com/TruthHun/DocHub">https://github.com/TruthHun/DocHub</a></li>
-<li>Forum web application, an example for from Rails to Go (Revel) <a href="https://github.com/huacnlee/mediom">https://github.com/huacnlee/mediom</a></li>
-<li>go-admin <a href="https://github.com/chenhg5/go-admin">https://github.com/chenhg5/go-admin</a></li>
-</ol>
+<ul>
+<li><a href="https://github.com/jaytaylor/html2text">Golang HTML to plaintext conversion library</a></li>
+<li><a href="https://github.com/mattn/go-sqlite3">sqlite3 driver for go using database/sql </a></li>
+<li><a href="https://github.com/adnanh/webhook">webhook is a lightweight configurable incoming webhook server which can execute shell commands</a></li>
+<li><a href="https://github.com/ChimeraCoder/gojson">Automatically generate Go (golang) struct definitions from example JSON</a></li>
+<li><a href="https://github.com/gernest/bongo">Elegant static website generation with Go </a></li>
+<li><a href="https://github.com/go-gomail/gomail">The best way to send emails in Go.</a></li>
+<li><a href="https://gin-gonic.github.io/gin/">The fastest full-featured web framework for Golang. Crystal clear.</a></li>
+<li><a href="https://github.com/philippklemmer/pingRedditPost">Website that shows top reddit posts</a></li>
+</ul>
 
 <h2 id="教程-文档">教程&amp;文档</h2>
 
-<ol>
-<li><a href="https://www.golang123.com/topic/1877">https://www.golang123.com/topic/1877</a></li>
-<li><a href="https://www.jianshu.com/p/71337279c0d2">200行Go代码写一个Gif播放器</a></li>
-</ol>
+<ul>
+<li><a href="https://github.com/narenaryan/go-mysql-rest-api">A guide for creating RESTful API with Golang, MySQL and Gin.</a></li>
+<li><a href="https://github.com/skybebe/gin-doc-cn">go 语言框架 gin 的中文文档</a></li>
+<li><a href="https://www.laojiyou.com/books/shenrujiexigo/">《深入解析Go》</a></li>
+<li><a href="https://segmentfault.com/a/1190000015562355?utm_source=tag-newest">Go 入门基础</a></li>
+<li><a href="https://segmentfault.com/q/1010000015563061?utm_source=tag-newest">如何使用vsCode编辑开发go语言的项目？</a></li>
+<li><a href="https://www.laojiyou.com/books/goweb/">Go Web 编程</a></li>
+<li><a href="https://github.com/smileisak/go-training">Go Training Repositories regroups some useful resources to learn Go Programming Language</a></li>
+<li><a href="https://quii.gitbook.io/learn-go-with-tests/">learn-go-with-tests</a></li>
+</ul>
 
 <h2 id="图书推荐">图书推荐</h2>
 
-<ol>
-<li>《深入理解计算机系统》</li>
-<li>《计算机程序设计艺术》</li>
-</ol>
+<ul>
+<li><a href="https://www.duokan.com/book/47112">《解决问题最简单的方法》</a></li>
+</ul>
     </div>
 
     
@@ -222,7 +225,7 @@
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-07-07</span>
+    <span class="item-content">2018-07-10</span>
   </p>
   
   
@@ -237,14 +240,9 @@
       
       <nav class="post-nav">
         
-          <a class="prev" href="/goweekly/post/2/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">第二周</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/goweekly/post/0/">
-            <span class="next-text nav-default">第零周</span>
+          <a class="next" href="/goweekly/post/3/">
+            <span class="next-text nav-default">第三周</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -260,8 +258,8 @@
     <script src="/goweekly/lib/gitalk/gitalk-1.2.2.min.js"></script>
   <script type="text/javascript">
   var gitalk = new Gitalk({
-    id: '2018-07-07 21:04:01 \x2b0800 CST',
-    title: '第一周',
+    id: '2018-07-10 20:59:03 \x2b0800 CST',
+    title: '第四周',
     clientID: 'c644b6a8c58379549634',
     clientSecret: 'e1071a687d33fb662ef2983778f84351ff7d5b0f',
     repo: 'goweekly-commit',
