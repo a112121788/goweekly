@@ -1,25 +1,46 @@
-baseURL = "https://www.upgradecoder.com/goweekly/"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Go Weekly"
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
+title = "Even - A super concise theme for Hugo"
 enableRobotsTXT = true
 enableEmoji = true
-theme = "even1"
+theme = "even"
 
 preserveTaxonomyNames = true
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 7                                         # 首页每页显示的文章数
+paginate = 5                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "goweekly"
+  name = "olOwOlo"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
 
 [params]
   version = "3.x"           # Used to give a friendly message when you have an incompatible update
@@ -28,9 +49,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   since = "2017"            # Site creation time          # 站点建立时间
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Go Weekly"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Go", "Go语言","开发","Web开发"]
-  description = "Go语言每周速报"
+  logoTitle = "Even"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Hugo", "theme","even"]
+  description = "Hugo theme even example site."
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 5
@@ -42,7 +63,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   dateFormatToUse = "2006-01-02"
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
-  moreMeta = true
+  moreMeta = false
 
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
@@ -97,10 +118,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     clientSecret = ""       # Your client secret
 
   [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-    owner = "a112121788"              # Your GitHub ID
-    repo = "goweekly-commit"               # The repo to store comments
-    clientId = "c644b6a8c58379549634"           # Your client ID
-    clientSecret = "e1071a687d33fb662ef2983778f84351ff7d5b0f"       # Your client secret
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
 
   [params.flowchartDiagrams]# see https://blog.olowolo.com/example-site/post/js-flowchart-diagrams/
     enable = false
@@ -111,7 +132,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     options = ""            # default: "{theme: 'simple'}"
 
   [params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
-    enable = true
+    enable = false
     siteUV = true
     sitePV = true
     pagePV = true
