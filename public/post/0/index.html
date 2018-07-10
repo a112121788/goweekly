@@ -40,7 +40,7 @@
 
 
 
-
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 <link href="/goweekly/dist/even.min.css?v=3.2.0" rel="stylesheet">
@@ -138,8 +138,9 @@
       <div class="post-meta">
         <span class="post-time"> 2018-07-07 </span>
         
-        
-        
+        <span class="more-meta"> 约 201 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/goweekly/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
     </header>
 
@@ -244,7 +245,23 @@
         
   
 
-  
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="/goweekly/lib/gitalk/gitalk-1.2.2.min.css">
+    <script src="/goweekly/lib/gitalk/gitalk-1.2.2.min.js"></script>
+  <script type="text/javascript">
+  var gitalk = new Gitalk({
+    id: '2018-07-07 13:04:01 \x2b0800 CST',
+    title: '第零周',
+    clientID: 'c644b6a8c58379549634',
+    clientSecret: 'e1071a687d33fb662ef2983778f84351ff7d5b0f',
+    repo: 'goweekly-commit',
+    owner: 'a112121788',
+    admin: ['a112121788'],
+    body: decodeURI(location.href)
+  });
+  gitalk.render('gitalk-container');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
 
       </div>
     </main>
@@ -277,7 +294,11 @@
     <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
   </span>
 
-  
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/goweekly/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/goweekly/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
 
   <span class="copyright-year">
     &copy; 

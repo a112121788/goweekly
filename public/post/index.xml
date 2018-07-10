@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Go Weekly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Jul 2018 21:04:01 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Jul 2018 13:04:03 +0800</lastBuildDate>
     
 	<atom:link href="https://www.upgradecoder.com/goweekly/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第二周</title>
+      <link>https://www.upgradecoder.com/goweekly/post/2/</link>
+      <pubDate>Sun, 08 Jul 2018 13:04:03 +0800</pubDate>
+      
+      <guid>https://www.upgradecoder.com/goweekly/post/2/</guid>
+      <description>&lt;p&gt;Go FAQ
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>第一周</title>
