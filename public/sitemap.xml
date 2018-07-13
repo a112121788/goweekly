@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.upgradecoder.com/goweekly/post/5/</loc>
+    <lastmod>2018-07-13T10:04:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.upgradecoder.com/goweekly/post/4/</loc>
     <lastmod>2018-07-10T20:59:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,14 +52,14 @@
   
   <url>
     <loc>https://www.upgradecoder.com/goweekly/</loc>
-    <lastmod>2018-07-10T20:59:03+08:00</lastmod>
+    <lastmod>2018-07-13T10:04:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.upgradecoder.com/goweekly/post/</loc>
-    <lastmod>2018-07-10T20:59:03+08:00</lastmod>
+    <lastmod>2018-07-13T10:04:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
